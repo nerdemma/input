@@ -1,4 +1,4 @@
-<h1>Input<h1>
+<h1>Input</h1>
 
 <p><span>
 Libreria para el ingreso de datos del tipo Char, String, Integer, Float para 
