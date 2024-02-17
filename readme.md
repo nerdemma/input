@@ -1,19 +1,15 @@
-C Language Input library
------------------------- 
-Emmanuel D. Breyaue
+<h1>Input<h1>
 
-hello@emmanuelbreyaue.com
+<p><span>
+Libreria para el ingreso de datos del tipo Char, String, Integer, Float para 
+los sistemas operativos UNIX BSD, El objetivo de esta libreria es comprender
+en detalle el ingreso y manipulacion de datos en este sistema operativo.
+</span></span>
 
-The objetive from this code is understand and improve my skills about the how
-the data->process->and exit of data works, is using variables of type char, data strcutures, pointers, access memory,files and binary search algoritm. 
-everthig of this library is conected to the rest of repositories, and will used to future projects, is made to run on unix system. 
-
-
-Computer Catch every alfanumerical characters. 
-
-when is pressed the key under an loop each one is convert to char and save on the array, at the same time is printed on the screen, the
-standard computer screen have a dimension of 80x40 (80 characters horizontal, 40 vertical) the lines of chars have these limit. 
-
-
-
+<p><span>
+<i>17/02/2024</i>
+En versiones anteriores, el codigo estaba desarrollado para el entorno win64
+version 7 de gcc, este nuevo codigo es compatible para el sistema operativo BSD, usando las librerias de captura de teclado termios. y unisdtd.h, para
+el resto del sistema hasta ahora usa las librerias standard del sistema, gotoxy() se escribe como goto_xy() que fue creado para que se ejecute en este sistema.
+</p></span>
 
